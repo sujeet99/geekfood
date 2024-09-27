@@ -1,0 +1,64 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 10px 20px 20px 20px;
+    background-color: #333;
+    color: rgb(241, 215, 215);
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .name {
+    font-size: 50px;
+    font-weight: bold;
+    
+  }
+  
+  .center-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-items {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .nav-items li {
+    cursor: pointer;
+  }
+  
+  .right-section .login-btn {
+    background-color: #5cd560;
+    border: none;
+    padding: 10px 15px;
+    color: rgb(6, 6, 246);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  
+  .right-section .login-btn:hover {
+    background-color: #45a049;
+  }
+  

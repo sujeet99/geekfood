@@ -1,0 +1,15 @@
+.Midpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px 20px 20px 20px;
+    background-color: #333;
+    color: rgb(241, 215, 215);
+    text-align: center;
+    justify-content: space-between;
+}
+.heading1{
+    color: rgb(241, 215, 215);
+    font-size: 50px;
+    font-weight: bold;
+}

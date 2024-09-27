@@ -1,0 +1,27 @@
+.Home{
+    background-image: url("../assets/backphoto1.jpg");
+   
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start; /* Left side pe content */
+  align-items: center;
+}
+.heading1{
+    color: rgb(241, 215, 215);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.MIdpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px 20px 20px 20px;
+    background-color: #333;
+    color: rgb(241, 215, 215);
+    text-align: center;
+    justify-content: space-between;
+}
